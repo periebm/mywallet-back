@@ -29,7 +29,7 @@ console.log(db)
 
 
 //Endpoints ==================
-app.post("/cadastro", async (req, res) => {
+app.post("/sign-up", async (req, res) => {
     const { name, email, password } = req.body;
 
     const singUpSchem = joi.object({
@@ -57,9 +57,8 @@ app.post("/cadastro", async (req, res) => {
     }
 })
 
-app.post("/sign-in", async (req, res) => {
+app.post("/login", async (req, res) => {
     const { email, password } = req.body;
-
     const signInSchem = joi.object({
         email: joi.string().email().required(),
         password: joi.string().required()
