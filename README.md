@@ -32,7 +32,7 @@ In this project, the MongoDB database was used through the website: https://clou
 npm i
 ```
 3. Configure the .env file with the DATABASE_URL
-4. Run the front-end with
+4. Run the back-end with
 ```bash
 npm start
 ```
