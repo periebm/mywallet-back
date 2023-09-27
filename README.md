@@ -4,7 +4,7 @@ An easy to use financial manager. Track your revenues and expenses to learn how 
 
 ## About
 
-This is an web application with which lots of people can manage their own expenses and revenues. Below are the implemented features:
+This is an web application on which lots of people can manage their own expenses and revenues. Below are the implemented features:
 
 Sign Up / Login / List all financial events for a user / Add expense / Add revenue
 
